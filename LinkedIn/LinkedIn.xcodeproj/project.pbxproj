@@ -11,6 +11,11 @@
 		18D28EE82AF0C51E00928DBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EE72AF0C51E00928DBF /* ContentView.swift */; };
 		18D28EEA2AF0C52000928DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D28EE92AF0C52000928DBF /* Assets.xcassets */; };
 		18D28EED2AF0C52000928DBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D28EEC2AF0C52000928DBF /* Preview Assets.xcassets */; };
+		18D28EF52AF0C58400928DBF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EF42AF0C58400928DBF /* SearchBarView.swift */; };
+		18D28EF82AF0C76100928DBF /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EF72AF0C76100928DBF /* PostModel.swift */; };
+		18D28EFA2AF0C76B00928DBF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EF92AF0C76B00928DBF /* NetworkModel.swift */; };
+		18D28EFC2AF0C86000928DBF /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EFB2AF0C86000928DBF /* InvitationView.swift */; };
+		18D28EFE2AF0CCBE00928DBF /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D28EFD2AF0CCBE00928DBF /* MyNetworkScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		18D28EE72AF0C51E00928DBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18D28EE92AF0C52000928DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D28EEC2AF0C52000928DBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18D28EF42AF0C58400928DBF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		18D28EF72AF0C76100928DBF /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		18D28EF92AF0C76B00928DBF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		18D28EFB2AF0C86000928DBF /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		18D28EFD2AF0CCBE00928DBF /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		18D28EE42AF0C51E00928DBF /* LinkedIn */ = {
 			isa = PBXGroup;
 			children = (
+				18D28EF62AF0C75600928DBF /* Model */,
+				18D28EF32AF0C57A00928DBF /* View */,
 				18D28EE52AF0C51E00928DBF /* LinkedInApp.swift */,
 				18D28EE72AF0C51E00928DBF /* ContentView.swift */,
 				18D28EE92AF0C52000928DBF /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				18D28EEC2AF0C52000928DBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18D28EF32AF0C57A00928DBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18D28EF42AF0C58400928DBF /* SearchBarView.swift */,
+				18D28EFB2AF0C86000928DBF /* InvitationView.swift */,
+				18D28EFD2AF0CCBE00928DBF /* MyNetworkScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18D28EF62AF0C75600928DBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D28EF72AF0C76100928DBF /* PostModel.swift */,
+				18D28EF92AF0C76B00928DBF /* NetworkModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D28EE82AF0C51E00928DBF /* ContentView.swift in Sources */,
+				18D28EF82AF0C76100928DBF /* PostModel.swift in Sources */,
+				18D28EF52AF0C58400928DBF /* SearchBarView.swift in Sources */,
+				18D28EFA2AF0C76B00928DBF /* NetworkModel.swift in Sources */,
 				18D28EE62AF0C51E00928DBF /* LinkedInApp.swift in Sources */,
+				18D28EFE2AF0CCBE00928DBF /* MyNetworkScreen.swift in Sources */,
+				18D28EFC2AF0C86000928DBF /* InvitationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
