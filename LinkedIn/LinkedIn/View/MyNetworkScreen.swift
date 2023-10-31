@@ -9,13 +9,18 @@ import SwiftUI
 
 let sampleModel: [NetworkModel] = [
     NetworkModel.init(id: 0, name: "Gurjinder Singh", position: "iOS dev", mutual: "45", image: "00"),
-    NetworkModel.init(id: 1, name: "Atinder Singh", position: "Accountant", mutual: "34", image: "02"),
+    NetworkModel.init(id: 1, name: "Atinder Singh", position: "Accountant", mutual: "34", image: "01"),
     NetworkModel.init(id: 2, name: "Sarbjeet Kaur", position: "Accountant", mutual: "78", image: "02"),
     NetworkModel.init(id: 3, name: "Gurdeep Singh", position: "iOS dev at paytm", mutual: "04", image: "03"),
-    NetworkModel.init(id: 4, name: "John", position: "Rec at Infosys", mutual: "14", image: "18"),
-    NetworkModel.init(id: 5, name: "Micheal", position: "Android Dev at Bell", mutual: "28", image: "05")
+    NetworkModel.init(id: 4, name: "John", position: "Rec at Infosys", mutual: "14", image: "04"),
+    NetworkModel.init(id: 5, name: "Micheal", position: "Android Dev at Bell", mutual: "28", image: "05"),
+    NetworkModel.init(id: 6, name: "Gurjinder Singh", position: "iOS dev", mutual: "45", image: "00"),
+    NetworkModel.init(id: 7, name: "Atinder Singh", position: "Accountant", mutual: "34", image: "01"),
+    NetworkModel.init(id: 8, name: "Sarbjeet Kaur", position: "Accountant", mutual: "78", image: "02"),
+    NetworkModel.init(id: 9, name: "Gurdeep Singh", position: "iOS dev at paytm", mutual: "04", image: "03"),
+    NetworkModel.init(id: 10, name: "John", position: "Rec at Infosys", mutual: "14", image: "04"),
+    NetworkModel.init(id: 11, name: "Micheal", position: "Android Dev at Bell", mutual: "28", image: "05"),
 ]
-
 
 struct MyNetworkView: View {
     var body: some View {
@@ -32,8 +37,7 @@ struct MyNetworkView: View {
             }.padding(.horizontal)
             Rectangle()
                 .fill(.gray).opacity(0.4)
-                .frame(width: .infinity, height: 10)
-//                .ignoresSafeArea(.all)
+                .frame(height: 10)
             
             HStack{
                 Text("Invitation")
@@ -52,6 +56,7 @@ struct MyNetworkView: View {
                     }
             }
         }
+//        .edgesIgnoringSafeArea(.bottom)
     }
 }
 

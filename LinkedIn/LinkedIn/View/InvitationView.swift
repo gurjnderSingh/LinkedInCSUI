@@ -42,7 +42,7 @@ struct InvitationView: View {
                 }
                 
                 Button {
-                    print("reject")
+                    print("Accept")
                 } label: {
                     Image(systemName: "checkmark.circle")
                         .font(.system(size: 30))
